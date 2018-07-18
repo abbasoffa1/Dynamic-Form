@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+#ekran{
+    width: 100%;
+    height: 620px;
+}
+.esasDiv{
+    margin: 0 auto;
+    width: 70%;
+    border:1px solid grey;
+}
+.esasDiv>.yarat{
+    width: 40%;
+    border:1px solid grey;
+    cursor: pointer;
+    margin: 50px auto;
+    padding: 20px 40px 20px 40px;
+    box-sizing: border-box;
+    font-size:25px;
+    text-align: center;
+}
+.esasDiv>.yarat:hover{
+    color:rgb(16,142,233);
+    border-color: rgb(16,142,233);
+}
+.esasDiv>.tesdiqle{
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    background-color: rgb(16,142,233);
+    color:white;
+    padding: 10px 10px 3px 10px;
+    border-radius: 10px;
+    font-size:20px;
+    cursor: pointer;
+    margin: 50px auto;
+}
+.esasDiv>.tesdiqle:hover{
+    opacity: 0.7;
+}
+.bosDiv{
+  margin-left: 50px;
+}
+.forma{
+    margin: 10px auto;
+    width: 85%;
+    height: 30px;
+}
+.silforma{
+    float: right;
+    background-color: grey;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius:100%;
+}
